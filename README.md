@@ -13,44 +13,45 @@
 <hr />
 
 <div align="center">
-    <h4>👤 Seguidores 👤</h4>
-    <p><i>Gostaria de participar? Só me seguir!</i></p>
-    <img width="600" src=".github/assets/cards/top3.svg" alt="Top 3 followers contributors (monthly)" />
-    <details>
-    <summary>🏅 Classificações 🏅</summary>
-    <br/>
-    <table>
-        <thead>
-            <tr align="center">
-                <th>Posição</th>
-                <th>Seguidor</th>
-                <th>Contribuições</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr align="center">
-                <td>1°</td>
-                <td><a href="https://github.com/emilyestvz">Majestade Emily</a></td>
-                <td>27 ctr.</td>
-            </tr>
-            <tr align="center">
-                <td>2°</td>
-                <td><a href="https://github.com/emilyestvz">Super Caua</a></td>
-                <td>18 ctr.</td>
-            </tr>
-            <tr align="center">
-                <td>4°</td>
-                <td><a href="https://github.com/Samuel-1210">Major Samuel</a></td>
-                <td>2 ctr.</td>
-            </tr>
-
-        </tbody>
-    </table>
-    </details>
-    <details>
-    <summary>✨ Review da IA ✨</summary>
-    <br/>
-    <div align="justify">
+        <h4>👤 Seguidores 👤</h4>
+        <p><i>Gostaria de participar? Só me seguir!</i></p>
+        <img width="600" src=".github/assets/cards/top3.svg" alt="Top 3 followers contributors (monthly)" />
+        <details>
+        <summary>🏅 Classificações 🏅</summary>
+        <br/>
+        <table>
+                <thead>
+                        <tr align="center">
+                                <th>Posição</th>
+                                <th>Seguidor</th>
+                                <th>Contribuições</th>
+                        </tr>
+                </thead>
+                <tbody>
+                        <tr align="center">
+                                <td>1°</td>
+                                <td><a href="https://github.com/emilyestvz">Majestade Emily</a></td>
+                                <td>27 ctr.</td>
+                        </tr>
+                        <tr align="center">
+                                <td>2°</td>
+                                <td><a href="https://github.com/emilyestvz">Super Caua</a></td>
+                                <td>18 ctr.</td>
+                        </tr>
+                        <tr align="center">
+                                <td>3°</td>
+                                <td><a href="https://github.com/Samuel-1210">Major Samuel</a></td>
+                                <td>2 ctr.</td>
+                        </tr>
+                </tbody>
+        </table>
+        </details>
+        <details>
+        <summary>✨ Review da IA ✨</summary>
+        <br/>
+        <div align="justify">
+        </div>
+        </details>
 </div>
     </details>
 </div>
