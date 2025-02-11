@@ -62,4 +62,4 @@
 
 <h6 align="right">
   Esse perfil é atualizado diariamente!<br/> <i>{{ last_update }}</i>
-<h6>
+</h6>
