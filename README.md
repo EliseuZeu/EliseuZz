@@ -12,12 +12,13 @@
 
 <hr />
 
-{% if followers|length > 0 %}
+<!-- Remover Jinja2 e considerar usar GitHub Actions para atualizar dinamicamente -->
+<!-- {% if followers|length > 0 %} -->
 <div align="center">
     <h4>👤 Seguidores 👤</h4>
     <p><i>Quer fazer parte? Só me seguir!</i></p>
     <img width="600" src=".github/assets/cards/top3.svg" alt="Top 3 seguidores mais ativos" />
-    {% if followers|length > 2 and total_contributions > 0 %}
+    <!-- {% if followers|length > 2 and total_contributions > 0 %} -->
     <details>
     <summary>🏅 Classificações 🏅</summary>
     <br/>
@@ -30,26 +31,26 @@
             </tr>
         </thead>
         <tbody>
-            {% for position, name, url, contributions in followers %}
-            {% if contributions > 0 %}
+            <!-- {% for position, name, url, contributions in followers %} -->
+            <!-- {% if contributions > 0 %} -->
             <tr align="center">
-                <td>{{ position + 1 }}°</td>
-                <td><a href="{{ url }}">{{ name }}</a></td>
-                <td>{{ contributions }} ctr.</td>
+                <td>1°</td>
+                <td><a href="URL_DO_SEGUIDOR">Nome do Seguidor</a></td>
+                <td>Contribuições ctr.</td>
             </tr>
-            {% endif %}
-            {% endfor %}
+            <!-- {% endif %} -->
+            <!-- {% endfor %} -->
         </tbody>
     </table>
     </details>
     <details>
     <summary>✨ Review da IA ✨</summary>
     <br/>
-    <div align="justify">{{ ai_review }}</div>
+    <div align="justify">Review da IA aqui</div>
     </details>
-    {% endif %}
+    <!-- {% endif %} -->
 </div>
-{% endif %}
+<!-- {% endif %} -->
 
 <div align="center">
   <h4>🐍 Snakommits 🐍</h4>
@@ -61,5 +62,5 @@
 </div>
 
 <h6 align="right">
-  Esse perfil é atualizado diariamente!<br/> <i>{{ last_update }}</i>
+  Esse perfil é atualizado diariamente!<br/> <i>Data da última atualização</i>
 </h6>
